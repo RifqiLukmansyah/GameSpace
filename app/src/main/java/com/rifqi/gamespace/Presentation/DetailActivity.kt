@@ -77,6 +77,16 @@ class DetailActivity : AppCompatActivity() {
                 finish()
             }, AnimationConstant.POP_ANIMATION)
         }
+        binding.btntocart.setOnClickListener {
+            it.popTap()
+            Handler(Looper.getMainLooper()).postDelayed({
+                val intent = Intent(this, CartActivity::class.java)
+                intent.putExtra(CartActivity.EXTRA_NAME, gameName)
+                intent.putExtra(CartActivity.EXTRA_PRICE, gamePrice.formatPriceThousand())
+                intent.putExtra(CartActivity.EXTRA_POSTER, gamePoster)
+                startActivity(intent)
+            }, AnimationConstant.POP_ANIMATION)
+        }
     }
 
     companion object {

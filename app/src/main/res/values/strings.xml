@@ -17,5 +17,6 @@
     <string name="remove">Remove</string>
     <string name="cart">Cart</string>
     <string name="continue_to_payment">Continue to Payment</string>
+    <string name="add">Add</string>
 
 </resources>
