@@ -13,5 +13,9 @@
     <string name="label_email_dicoding">rifqilukmansyah2001@gmail.com</string>
     <string name="desc_my_profile_pic">My profile pic</string>
     <string name="appbar_about_me">About Me</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="remove">Remove</string>
+    <string name="cart">Cart</string>
+    <string name="continue_to_payment">Continue to Payment</string>
 
 </resources>
