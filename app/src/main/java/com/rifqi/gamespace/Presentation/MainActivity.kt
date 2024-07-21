@@ -81,7 +81,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun navigateToAboutMe(){
-
+        val intent = Intent(this, AboutActivity::class.java)
+        startActivity(intent)
     }
 
     private fun navigateToDetail(game: Game) {
