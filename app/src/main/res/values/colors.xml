@@ -14,6 +14,8 @@
     <color name="light_blue">#1C7CDF</color>
 
     <color name="blue">#0A59AA</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="colorAccent">#FF4081</color>
 
     <color name="action_bar_darker">#1C2935</color>
     <color name="back_ground_darker">#243240</color>

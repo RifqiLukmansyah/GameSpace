@@ -2,6 +2,7 @@ package com.rifqi.gamespace.adapter
 
 import android.os.Handler
 import android.os.Looper
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -55,7 +56,6 @@ class GameAdapter(private val onClick: (Game) -> Unit) :
                 .into(binding.imgGame)
 
             binding.tvGameName.text = game.name
-            binding.tvGameCategory.text = game.categories
             binding.tvGameCategory.text = game.categories
             binding.tvGameRating.text = game.rating.toRating()
             binding.tvGameTotalReview.text = binding.root.context.getString(

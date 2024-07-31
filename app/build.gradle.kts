@@ -37,6 +37,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
 }
 
 dependencies {
@@ -50,6 +51,11 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation (libs.lottie)
-    implementation (libs.glide)
+    implementation("com.github.bumptech.glide:glide:4.9.0") {
+        exclude("com.android.support")
+    }
+    annotationProcessor (libs.androidx.annotation)
     annotationProcessor (libs.compiler)
+    implementation ("com.github.bumptech.glide:glide:4.9.0@aar") {
+    }
 }

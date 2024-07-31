@@ -21,6 +21,7 @@ import com.rifqi.gamespace.utils.CategoryConstant
 import com.rifqi.gamespace.utils.popTap
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var binding: ActivityMainBinding
 
     private val gameAdapter: GameAdapter by lazy {
